@@ -23,9 +23,7 @@ public class Begue implements ComportementCancan{
 	public static void main(String[] args) {
 		
 		Begue begue = new Begue(new Coincoin());
-		Begue begue2 = new Begue(new CanardMuet());
 		begue.cancaner();
-		begue2.cancaner();
 
 	}
 	
