@@ -17,13 +17,13 @@ public class SuperCanard {
 
 		 for( Canard canardo : Canards){ 
 			 canardo.afficher(); 
-			 while (i<=5){
-				 if (i % 2 == 0){
-					 hoquet = true;
-				 }
-				 canardo.effectuerCancan(hoquet); 
-				 i++;
-			 }	 
+//			 while (i<=5){
+//				 if (i % 2 == 0){
+//					 hoquet = true;
+//				 }
+				 canardo.effectuerCancan(); 
+//				 i++;
+//			 }	 
 			 
 			 
 			 canardo.effectuerVol(); 

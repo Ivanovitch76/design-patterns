@@ -4,6 +4,7 @@ public class Mandarin extends Canard {
 
 	public Mandarin(){
 		comportementCancan = new Coincoin();
+//		comportementCancan = new Hoquet();
 		comportementVol = new VolerAvecDesAiles();
 	}
 	

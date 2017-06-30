@@ -13,7 +13,7 @@ public abstract class Canard {
 
 	public abstract void afficher();
 		
-	public void effectuerCancan(boolean hoquet){
+	public void effectuerCancan(){
 		comportementCancan.cancaner(); 
 	}
 	public void effectuerVol(){
